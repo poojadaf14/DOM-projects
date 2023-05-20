@@ -19,14 +19,14 @@
                 <div class="clash-card__level clash-card__level--barbarian">
                     Level 4
                 </div>
-                <div>The Barbarian</div>
+                <div style="color: black;">The Barbarian</div>
                 <div class="clash-card__unit-description">
                     The Barbarian is a kilt-clad Scottish warrior with an angry,
                     battle-ready expression, hungry for destruction. He has Killer
                     yellow horseshoe mustache.
                 </div>
 
-                <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+                <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix" id="orange">
                     <div class="one-third">
                         <div class="stat">20<sup>S</sup></div>
                         <div class="stat-value">Training</div>
@@ -53,14 +53,14 @@
                     <img src="./assets/archer.png" alt="archer" />
                 </div>
                 <div class="clash-card__level clash-card__level--archer">Level 5</div>
-                <div>Character 2</div>
+                <div style="color: black;">The Archer</div>
                 <div class="clash-card__unit-description">
                     The Archer is a female warrior with sharp eyes. She wears a short,
                     light green dress, a hooded cape, a leather belt and an attached
                     small pouch.
                 </div>
 
-                <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+                <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix" id="pink">
                     <div class="one-third">
                         <div class="stat">25<sup>S</sup></div>
                         <div class="stat-value">Training</div>
@@ -87,14 +87,14 @@
                     <img src="./assets/giant.png" alt="giant" />
                 </div>
                 <div class="clash-card__level clash-card__level--giant">Level 5</div>
-                <div>The Giant</div>
+                <div style="color: black;">The Giant</div>
                 <div class="clash-card__unit-description">
                     Slow, steady and powerful, Giants are massive warriors that soak up
                     huge amounts of damage. Show them a turret or cannon and you'll see
                     their fury unleashed!
                 </div>
 
-                <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
+                <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix" id="yellow">
                     <div class="one-third">
                         <div class="stat">2<sup>M</sup></div>
                         <div class="stat-value">Training</div>
@@ -121,14 +121,14 @@
                     <img src="./assets/goblin.png" alt="goblin" />
                 </div>
                 <div class="clash-card__level clash-card__level--goblin">Level 5</div>
-                <div>Character 4</div>
+                <div style="color: black;">The Goblin</div>
                 <div class="clash-card__unit-description">
                     These pesky little creatures only have eyes for one thing: LOOT!
                     They are faster than a Spring Trap, and their hunger for resources
                     is limitless.
                 </div>
 
-                <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
+                <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix" id="green">
                     <div class="one-third">
                         <div class="stat">30<sup>S</sup></div>
                         <div class="stat-value">Training</div>
@@ -155,14 +155,14 @@
                     <img src="./assets/wizard.png" alt="wizard" />
                 </div>
                 <div class="clash-card__level clash-card__level--wizard">Level 6</div>
-                <div>The Wizard</div>
+                <div style="color: black;">The Wizard</div>
                 <div class="clash-card__unit-description">
                     The Wizard is a terrifying presence on the battlefield. Pair him up
                     with some of his fellows and cast concentrated blasts of destruction
                     on anything, land or sky!
                 </div>
 
-                <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+                <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix" id="blue">
                     <div class="one-third">
                         <div class="stat">5<sup>M</sup></div>
                         <div class="stat-value">Training</div>
@@ -184,6 +184,29 @@
         <!-- end wrapper -->
     </div>
     <!-- end container -->
+
+    <script>
+      let orange=  document.getElementById("orange");
+      orange.style.backgroundColor = "#ec9b3b"
+      orange.style.color= "#ffff";
+
+      let pink = document.getElementById("pink");
+      pink.style.backgroundColor = "#d04976";
+      pink.style.color= "#ffff";
+
+      let yellow = document.getElementById("yellow");
+      yellow.style.backgroundColor = "#de7b09";
+      yellow.style.color= "#ffff";
+
+
+      let green = document.getElementById("green");
+      green.style.backgroundColor = "#82bb30";
+      green.style.color= "#ffff";
+
+      let blue = document.getElementById("blue");
+      blue.style.backgroundColor = "#309eff";
+      blue.style.color= "#ffff";
+    </script>
 </body>
 
 </html>
